@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import br.unitins.fragments.R;
 import br.unitins.fragments.fragment.PrimeiroFragment;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonInserir, buttonApresenta;
     private PrimeiroFragment primeiroFragment;
     private SegundoFragment segundoFragment;
+    private EditText textoDigitado;
 
     private static final String BACK_STACK_ROOT_TAG = " primeirofragment";
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonApresenta = findViewById(R.id.buttonApresenta);
         buttonInserir = findViewById(R.id.buttonInserir);
+        textoDigitado = findViewById(R.id.edt_texto);
 
         //Remover sombra da ActionBar
         getSupportActionBar().setElevation(0);
@@ -60,8 +63,6 @@ public class MainActivity extends AppCompatActivity {
                 transaction.replace(R.id.frameConteudo,segundoFragment);
                 transaction.addToBackStack(null);
                 transaction.commit();
-
-
 
             }
         });
