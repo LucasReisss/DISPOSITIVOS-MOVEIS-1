@@ -37,18 +37,21 @@
             <Button
                 android:id="@+id/btn_limpar"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="?attr/colorButtonNormal"
                 android:text="limpar" />
 
             <Button
                 android:id="@+id/btn_enviar"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Enviar"/>
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Enviar"
+                android:textColor="@android:color/white" />
 
 
 
