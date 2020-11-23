@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dispositivos-moveis-1.iml" filepath="$PROJECT_DIR$/dispositivos-moveis-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Navegador.iml" filepath="$PROJECT_DIR$/.idea/modules/Navegador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Navegador.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Navegador.app.iml" />
     </modules>
   </component>
 </project>
